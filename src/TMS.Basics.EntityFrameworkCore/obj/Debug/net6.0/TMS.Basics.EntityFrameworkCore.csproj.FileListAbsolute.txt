@@ -1,0 +1,17 @@
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\obj\Debug\net6.0\TMS.Basics.EntityFrameworkCore.csproj.AssemblyReference.cache
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\obj\Debug\net6.0\TMS.Basics.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\obj\Debug\net6.0\TMS.Basics.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\obj\Debug\net6.0\TMS.Basics.EntityFrameworkCore.AssemblyInfo.cs
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\obj\Debug\net6.0\TMS.Basics.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\bin\Debug\net6.0\TMS.Basics.EntityFrameworkCore.deps.json
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\bin\Debug\net6.0\TMS.Basics.EntityFrameworkCore.dll
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\bin\Debug\net6.0\TMS.Basics.EntityFrameworkCore.pdb
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\bin\Debug\net6.0\TMS.Basics.Domain.dll
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\bin\Debug\net6.0\TMS.Basics.Domain.Shared.dll
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\bin\Debug\net6.0\TMS.Basics.Domain.pdb
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\bin\Debug\net6.0\TMS.Basics.Domain.Shared.pdb
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\obj\Debug\net6.0\TMS.Basics.EntityFrameworkCore.csproj.CopyComplete
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\obj\Debug\net6.0\TMS.Basics.EntityFrameworkCore.dll
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\obj\Debug\net6.0\refint\TMS.Basics.EntityFrameworkCore.dll
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\obj\Debug\net6.0\TMS.Basics.EntityFrameworkCore.pdb
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.EntityFrameworkCore\obj\Debug\net6.0\ref\TMS.Basics.EntityFrameworkCore.dll

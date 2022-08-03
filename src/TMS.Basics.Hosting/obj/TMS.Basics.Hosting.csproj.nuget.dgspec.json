@@ -1,0 +1,425 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Hosting\\TMS.Basics.Hosting.csproj": {}
+  },
+  "projects": {
+    "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application.Contracts\\TMS.Basics.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application.Contracts\\TMS.Basics.Application.Contracts.csproj",
+        "projectName": "TMS.Basics.Application.Contracts",
+        "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application.Contracts\\TMS.Basics.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.Ddd.Application.Contracts": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application\\TMS.Basics.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application\\TMS.Basics.Application.csproj",
+        "projectName": "TMS.Basics.Application",
+        "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application\\TMS.Basics.Application.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application.Contracts\\TMS.Basics.Application.Contracts.csproj": {
+                "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application.Contracts\\TMS.Basics.Application.Contracts.csproj"
+              },
+              "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain\\TMS.Basics.Domain.csproj": {
+                "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain\\TMS.Basics.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.Ddd.Application": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain.Shared\\TMS.Basics.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain.Shared\\TMS.Basics.Domain.Shared.csproj",
+        "projectName": "TMS.Basics.Domain.Shared",
+        "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain.Shared\\TMS.Basics.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain\\TMS.Basics.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain\\TMS.Basics.Domain.csproj",
+        "projectName": "TMS.Basics.Domain",
+        "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain\\TMS.Basics.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain.Shared\\TMS.Basics.Domain.Shared.csproj": {
+                "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain.Shared\\TMS.Basics.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.EntityFrameworkCore\\TMS.Basics.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.EntityFrameworkCore\\TMS.Basics.EntityFrameworkCore.csproj",
+        "projectName": "TMS.Basics.EntityFrameworkCore",
+        "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.EntityFrameworkCore\\TMS.Basics.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain\\TMS.Basics.Domain.csproj": {
+                "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Domain\\TMS.Basics.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.MySQL": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Hosting\\TMS.Basics.Hosting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Hosting\\TMS.Basics.Hosting.csproj",
+        "projectName": "TMS.Basics.Hosting",
+        "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Hosting\\TMS.Basics.Hosting.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Hosting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application\\TMS.Basics.Application.csproj": {
+                "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.Application\\TMS.Basics.Application.csproj"
+              },
+              "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.EntityFrameworkCore\\TMS.Basics.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\Program\\dotnet\\TMS\\TMS.Basics\\src\\TMS.Basics.EntityFrameworkCore\\TMS.Basics.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.16.1, )"
+            },
+            "Volo.Abp.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
+            "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

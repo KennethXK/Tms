@@ -1,0 +1,12 @@
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\bin\Debug\net6.0\TMS.Basics.Application.Contracts.deps.json
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\bin\Debug\net6.0\TMS.Basics.Application.Contracts.dll
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\bin\Debug\net6.0\TMS.Basics.Application.Contracts.pdb
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\obj\Debug\net6.0\TMS.Basics.Application.Contracts.csproj.AssemblyReference.cache
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\obj\Debug\net6.0\TMS.Basics.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\obj\Debug\net6.0\TMS.Basics.Application.Contracts.AssemblyInfoInputs.cache
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\obj\Debug\net6.0\TMS.Basics.Application.Contracts.AssemblyInfo.cs
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\obj\Debug\net6.0\TMS.Basics.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\obj\Debug\net6.0\TMS.Basics.Application.Contracts.dll
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\obj\Debug\net6.0\refint\TMS.Basics.Application.Contracts.dll
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\obj\Debug\net6.0\TMS.Basics.Application.Contracts.pdb
+D:\Program\dotnet\TMS\TMS.Basics\src\TMS.Basics.Application.Contracts\obj\Debug\net6.0\ref\TMS.Basics.Application.Contracts.dll
