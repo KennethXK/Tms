@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using TMS.Basics.Application;
 using TMS.Basics.EntityFrameworkCore;
 using TMS.Basics.Hosting.Filters;
@@ -24,12 +25,15 @@ namespace TMS.Basics.Hosting
         #region 中间件注入
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
+            var configuration = context.Services.GetConfiguration();
             context.Services.AddHttpClient();
             //注入会话
             context.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             
             ConfigureCors(context);
             ConfigureMvc(context);
+
+            ConfigureSwaggerServices(context, configuration);
         }
         /// <summary>
         /// MVC中间件注入配置
@@ -91,10 +95,37 @@ namespace TMS.Basics.Hosting
             app.UseCors();
             app.UseRouting();
 
+            app.UseSwagger();
+            app.UseAbpSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Basics API");
+
+                var configuration = context.ServiceProvider.GetRequiredService<IConfiguration>();
+                c.OAuthClientId(configuration["AuthServer:SwaggerClientId"]);
+                c.OAuthClientSecret(configuration["AuthServer:SwaggerClientSecret"]);
+                c.OAuthScopes("Basics");
+            });
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+        }
+
+        private static void ConfigureSwaggerServices(ServiceConfigurationContext context, IConfiguration configuration)
+        {
+            context.Services.AddAbpSwaggerGenWithOAuth(
+                "",
+                new Dictionary<string, string>
+                {
+                    {"Basics", "Basics API"}
+                },
+                options =>
+                {
+                    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Basics API", Version = "v1" });
+                    options.DocInclusionPredicate((docName, description) => true);
+                    options.CustomSchemaIds(type => type.FullName);
+                });
         }
     }
 }
